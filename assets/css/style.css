@@ -50,9 +50,11 @@ footer {
 }
 
 
+@media only screen and (max-width: 576px) {
 
+    .ocultar-sm {
+        display: none;
+        /* Ocultar en dispositivos pequeños */
+    }
 
-.ocultar-sm {
-    display: none;
-    /* Ocultar en dispositivos pequeños */
 }
