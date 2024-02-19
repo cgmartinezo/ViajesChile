@@ -49,6 +49,38 @@ footer {
     margin-bottom: 5px;
 }
 
+.card {
+    margin: 0 20px;
+    background-color: #328998;
+}
+
+.card-group {
+    border: 1px black;
+    margin-bottom: 100px;
+}
+
+.card-text {
+    font-size: 12pt;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+}
+
+.card-img-top {
+    padding: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 576px) {
 
