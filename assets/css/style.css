@@ -48,3 +48,11 @@ footer {
     font-size: 8px;
     margin-bottom: 5px;
 }
+
+
+
+
+.ocultar-sm {
+    display: none;
+    /* Ocultar en dispositivos pequeños */
+}
