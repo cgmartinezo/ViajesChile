@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Viajes Chile</title>
+    <link rel="shortcut icon" type=”image/png” href="/assets/img/favicon.png">
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Barra de navegación -->
+    <header class="navbar navbar-expand-lg  fixed-top bg-transparente">
+        <!-- style="background-color: skyblue;"> -->
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img height="30" src="/assets/img/viajes.svg" class="svg d-inline-block align-top" alt="Viajes Chile" />
+                Viajes Chile</a>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <nav class="navbar-nav ms-auto">
+
+                    <!--<nav class="navbar-nav bg-primary ms-auto"></nav> para saber padding-->
+
+                    <a class="nav-link active text-white" aria-current="page" href="index.html">Inicio</a>
+                    <a class="nav-link text-white" href="#quienessomos">Quienes Somos</a>
+                    <a class="nav-link text-white" href="#destacados">Destacados</a>
+                    <a class="nav-link text-white" href="#contacto">Contacto</a>
+
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- carrusel -->
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- fin carrusel -->
+
+
+    <!-- Quienes Somos-->
+    <article>
+        <section>
+            <!-- <div class="container ocultar-sm quienes-somos"> -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 id="quienessomos" class="text-center text-blanco">¿QUIENES SOMOS?</h2>
+                        <hr>
+                    </div>
+                    <!-- cards -->
+                    <div class=" col-4">
+                        <div class="card-body">
+                            <h5 class="bg-celeste centrado"><i class="fas fa-plane"></i></h5>
+                            <p class="card-text card-text_size text-blanco">Lorem ipsum dolor sit amet
+                                consectetur, adipisicing elit. Vitae odit, at sed animi, expedita totam obcaecati
+                                quisquam
+                                esse eligendi minus iusto nulla, illo nisi cumque? Molestias id voluptatum at pariatur
+                                earum. Sint nobis ea vel perferendis pariatur aut mollitia exercitationem in unde sit
+                                distinctio, molestiae quis, nulla, aliquid repellat vitae.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card-body">
+                            <p class="card-text card-text_size text-blanco">Lorem ipsum dolor sit, amet
+                                consectetur adipisicing elit. Quia ad officia eveniet non id minima vel. At odit
+                                recusandae
+                                sequi repudiandae, fuga omnis placeat beatae aperiam odio asperiores quasi unde dolorum
+                                inventore nihil dolores, adipisci aliquam officia. Quam laborum blanditiis earum minima
+                                id
+                                debitis ipsam atque suscipit! Animi, iure incidunt!
+                            </p>
+                            <h5 class="bg-celeste centrado "><i class="fas fa-mountain"></i></h5>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="card-body card-text_size">
+                            <h5 class="bg-celeste centrado"><i class="fas fa-route"></i></h5>
+                            <p class="card-text text-blanco">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Explicabo laborum consectetur natus deleniti. Debitis reprehenderit, ut, voluptas
+                                libero perferendis similique dolore sequi blanditiis nesciunt facere cupiditate
+                                molestias
+                                adipisci sapiente repellat nisi placeat aliquid, beatae officia error assumenda dicta.
+                                Earum
+                                expedita eveniet fuga suscipit iusto nobis vitae quam libero ut mollitia?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+
+
+
+
+
+
+
+    <!-- Contenedor principal -->
+
+    <h2 id="destacados" class="text-center text-white">DESTACADOS</h2>
+
+    <section class="container">
+
+
+
+        <div class="row">
+
+            <!-- Tarjeta 1 -->
+            <div class="card col-12 col-md-3 mt-5 bg-celeste ">
+                <img src="assets/img/card1.jpg" width=278px height=180px class="card-img-top" alt="card2">
+                <div class="card-body">
+                    <h2 class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
+                        exercitationem
+                        adipisci iure incidunt ad. Vero voluptatem unde repellendus voluptate mollitia, debitis
+                        obcaecati
+                        illo voluptatibus minima dolorum eligendi quis vel quaerat!</h2>
+                </div>
+            </div>
+
+            <!-- Tarjeta 2 -->
+            <div class="card col-12 col-md-3 mt-5 bg-celeste ">
+                <img src="assets/img/card2.jpg" width=278px height=180px class="card-img-top" alt="card2">
+                <div class="card-body">
+                    <h2 class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
+                        exercitationem
+                        adipisci iure incidunt ad. Vero voluptatem unde repellendus voluptate mollitia, debitis
+                        obcaecati
+                        illo voluptatibus minima dolorum eligendi quis vel quaerat!</h2>
+                </div>
+            </div>
+
+
+
+            <!-- Tarjeta 3 -->
+            <div class="card col-12 col-md-3 mt-5 bg-celeste">
+                <img src="assets/img/card3.jpg" width=278px height=180px class="card-img-top" alt="card3">
+                <div class="card-body">
+                    <h2 class="card-text font-weight-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Omnis
+                        hic optio unde odit quasi, doloremque at quo, iusto recusandae provident quam. Optio voluptatum
+                        ut
+                        illo! Quibusdam dolores recusandae corporis quas!</h2>
+                </div>
+            </div>
+
+
+
+
+            <!-- Tarjeta 4 -->
+            <div class="card col-12 col-md-3 mt-5 bg-celeste">
+                <img src="assets/img/card4.jpg" width=278px height=180px class="card-img-top" alt="card4">
+                <div class="card-body">
+                    <h2 class="card-text font-weight-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Assumenda ipsam maxime dolor nemo, velit sit doloremque maiores quas atque voluptatibus
+                        excepturi,
+                        beatae, odit impedit ut natus asperiores dicta culpa nobis!</h2>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- Formulario -->
+    <header id="contacto" class="text-white" style="background-color: black;">
+
+        <section class="container ">
+            <h2 class="text-center text-white">CONTACTO</h2>
+
+            <form>
+                <div class="mb-3 ">
+                    <label class="form-label">Nombre</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Asunto</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1">
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+                <div class="mb-3">
+                    <button type="button" class="btn bg-celeste">Enviar</button>
+                </div>
+
+            </form>
+
+
+
+        </section>
+    </header>
+
+    <footer class="bg-celeste">
+        <div class="container">
+            <div class="row centrado ">
+
+                <p class="col-12 col-md-6 brand-text-footer text-blanco d-inline-block align-center">VIAJES CHILE</p>
+                <!-- <p class="col-12 col-md-6 text-blanco">Viajes Chile</p> -->
+
+
+                <!-- favs -->
+                <div class="col-12 col-md-6 text-blanco">
+                    <div class="icono-footer">
+                        <a href="https://github.com"><i class="fab fa-github-square fa-3x text-blanco"></i></a>
+                    </div>
+                    <div class="icono-footer">
+                        <a href="https://twitter.com"><i class="fab fa-twitter-square fa-3x text-blanco"></i></a>
+                    </div>
+                    <div class="icono-footer">
+                        <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-3x text-blanco"></i></a>
+                    </div>
+                    <div class="icono-footer">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-3x text-blanco"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- fotter -->
+    <!-- <footer>
+        <div class="container text-center text-muted mt-4 p-2 bg-celeste"> -->
+
+    <!-- <a class="footer" href="#"><img src="assets/img/logo-black.png" alt="Cupon Negro" width="100"></a> -->
+
+    <!-- <p class="text-center mb-5">VIAJES CHILE</p>
+        </div>
+    </footer> -->
+
+    <!-- Bootstrap JS (necesario para el funcionamiento de ciertos componentes) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
